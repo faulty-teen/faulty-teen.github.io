@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #ccc;
+}
+
+header {
+    background-color: #555;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.code-section {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    max-width: 600px; /* Set a maximum width for the code block */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-size: 16px;
+}
+
+.text-color {
+    color: #e05e56;
+}
+
+.quote-color {
+    color: #5ea666;
+}
+
+.text2-color {
+    color: #2ba5ef;
+}
+
+.bracket-color {
+    color: #f1d714;
+}
+
+.buttons-section {
+    margin: 20px auto; /* Center the section horizontally */
+    text-align: center;
+    background-color: #2a2a2a; /* Add a background color to the box */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}

@@ -1,72 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Faulty's Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #3b3b3b; /* Set background color */
-            color: #fff; /* Change text color to white */
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .title {
-            text-align: center;
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        .description {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .my-links {
-            text-align: center;
-            margin-top: 40px;
-        }
-        .my-links button {
-            margin: 5px;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #3498db;
-            color: #fff;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .disclaimer {
-            text-align: center;
-            margin-top: 50px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Faulty</title>
 </head>
 <body>
+    <header>
+        <h1>Faulty</h1>
+    </header>
 
-    <div class="container">
-        <div class="title">
-            <h1>Faulty's Portfolio</h1>
+    <section id="code" class="code-section">
+        <pre>
+            <code>
+                <span class="text-color">text </span>= <span></span><span class="quote-color">"I code in python and HTML!"<br></span><span class="text2-color">                print</span><span class="bracket-color">(</span><span class="text-color">text</span><span class="bracket-color">)</span>
+            </code>
+        </pre>
+    </section>
+
+    <section id="buttons" class="buttons-section">
+        <h2>Connect with Me</h2>
+        <div class="button-container">
+            <a href="https://www.github.com/faulty-teen" target="_blank">Github</a>
+            <a href="https://www.youtube.com/@DJFVR" target="_blank">YouTube</a>
+            <a href="https://www.twitch.tv/dj_faulty" target="_blank">Twitch</a>
+            <a href="./construction.html" target="_blank">Discord</a>
+            <a href="./construction.html" target="_blank">Contact Me!</a>
         </div>
+    </section>
 
-        <div class="description">
-            <p>
-                As a multifaceted creator, I blend the beats of my DJ passion with the precision of Python coding. With a keen expertise in Python, I craft innovative solutions and breathe life into Discord bots and other automated creations. Beyond the realm of coding, my canvas extends to digital art, where I blend colors and pixels to create visually captivating pieces.
-            </p>
-        </div>
-
-        <div class="my-links">
-            <p>My links:</p>
-            <button onclick="window.location.href='https://discord.gg/55DPYh2gHd'" target="_blank">My Discord Server</button>
-            <button onclick="window.location.href='https://github.com/faulty-teen'" target="_blank">My GitHub</button>
-        </div>
-
-        <div class="disclaimer">
-            <p>This is a very basic portfolio, and I'm currently learning HTML. Stay tuned for a new and improved version!</p>
-        </div>
-    </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
